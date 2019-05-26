@@ -1,6 +1,6 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
-import {BlankPageComponent} from './blank-page.component';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { BlankPageComponent } from './blank-page.component';
 
 const routes: Routes = [
   {

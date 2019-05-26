@@ -1,7 +1,7 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import {AlertComponent} from './alert.component';
+import { AlertComponent } from './alert.component';
 
 describe('AlertComponent', () => {
   let component: AlertComponent;

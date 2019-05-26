@@ -1,4 +1,4 @@
-import {BlankPageModule} from './blank-page.module';
+import { BlankPageModule } from './blank-page.module';
 
 describe('BlankPageModule', () => {
   let blankPageModule: BlankPageModule;

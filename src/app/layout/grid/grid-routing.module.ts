@@ -1,6 +1,6 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
-import {GridComponent} from './grid.component';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { GridComponent } from './grid.component';
 
 const routes: Routes = [
   {

@@ -1,4 +1,4 @@
-import {BsComponentModule} from './bs-component.module';
+import { BsComponentModule } from './bs-component.module';
 
 describe('BsComponentModule', () => {
   let bsComponentModule: BsComponentModule;

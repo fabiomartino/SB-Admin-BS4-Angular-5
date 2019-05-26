@@ -1,6 +1,6 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
-import {BsElementComponent} from './bs-element.component';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { BsElementComponent } from './bs-element.component';
 
 const routes: Routes = [
   {

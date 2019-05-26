@@ -1,4 +1,4 @@
-import {GridModule} from './grid.module';
+import { GridModule } from './grid.module';
 
 describe('GridModule', () => {
   let gridModule: GridModule;

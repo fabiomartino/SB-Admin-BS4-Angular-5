@@ -1,6 +1,6 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
-import {BsComponentComponent} from './bs-component.component';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { BsComponentComponent } from './bs-component.component';
 
 const routes: Routes = [
   {

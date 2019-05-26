@@ -1,4 +1,4 @@
-import {BsElementModule} from './bs-element.module';
+import { BsElementModule } from './bs-element.module';
 
 describe('BsElementModule', () => {
   let bsElementModule: BsElementModule;

@@ -1,4 +1,4 @@
-import {LayoutModule} from './layout.module';
+import { LayoutModule } from './layout.module';
 
 describe('LayoutModule', () => {
   let layoutModule: LayoutModule;

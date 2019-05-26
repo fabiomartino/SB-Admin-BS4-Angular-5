@@ -1,4 +1,4 @@
-import {TablesModule} from './tables.module';
+import { TablesModule } from './tables.module';
 
 describe('TablesModule', () => {
   let tablesModule: TablesModule;
