@@ -1,4 +1,4 @@
-import { ServerErrorModule } from './server-error.module';
+import {ServerErrorModule} from './server-error.module';
 
 describe('ServerErrorModule', () => {
   let serverErrorModule: ServerErrorModule;

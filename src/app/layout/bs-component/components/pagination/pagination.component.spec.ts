@@ -1,7 +1,7 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-import { PaginationComponent } from './pagination.component';
+import {PaginationComponent} from './pagination.component';
 
 describe('PaginationComponent', () => {
   let component: PaginationComponent;
@@ -9,12 +9,9 @@ describe('PaginationComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [
-        NgbModule
-      ],
-      declarations: [ PaginationComponent ]
-    })
-    .compileComponents();
+      imports: [NgbModule],
+      declarations: [PaginationComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

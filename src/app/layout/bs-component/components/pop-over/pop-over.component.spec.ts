@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { PopOverComponent } from './pop-over.component';
+import {PopOverComponent} from './pop-over.component';
 
 describe('PopOverComponent', () => {
   let component: PopOverComponent;
@@ -8,9 +8,8 @@ describe('PopOverComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PopOverComponent ]
-    })
-    .compileComponents();
+      declarations: [PopOverComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

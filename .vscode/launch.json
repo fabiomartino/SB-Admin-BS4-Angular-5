@@ -25,15 +25,17 @@
     {
       "type": "chrome",
       "request": "launch",
-      "name": "Launch Chrome",
-      "url": "http://localhost:4200/",
+      "port": 9222,
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:4200",
       "webRoot": "${workspaceFolder}"
     },
     {
       "type": "chrome",
       "request": "launch",
-      "name": "Launch Chrome https",
-      "url": "https://localhost:4200/",
+      "port": 9222,
+      "name": "Launch Chrome against localhost with https",
+      "url": "https://localhost:4200",
       "webRoot": "${workspaceFolder}"
     }
   ]

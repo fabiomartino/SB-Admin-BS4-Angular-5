@@ -14,11 +14,11 @@
             "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "node_modules/font-awesome/css/font-awesome.css",
@@ -83,7 +83,7 @@
               "node_modules/chart.js/dist/Chart.js"
             ],
             "styles": [
-              "node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
               "src/styles/app.scss"
             ],
             "assets": [

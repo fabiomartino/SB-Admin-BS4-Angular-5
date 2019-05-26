@@ -1,4 +1,4 @@
-import { PageHeaderModule } from './page-header.module';
+import {PageHeaderModule} from './page-header.module';
 
 describe('PageHeaderModule', () => {
   let pageHeaderModule: PageHeaderModule;

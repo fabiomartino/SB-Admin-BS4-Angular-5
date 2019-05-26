@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {RouterTestingModule} from '@angular/router/testing';
 
-import { PageHeaderComponent } from './page-header.component';
-import { PageHeaderModule } from './page-header.module';
+import {PageHeaderComponent} from './page-header.component';
+import {PageHeaderModule} from './page-header.module';
 
 describe('PageHeaderComponent', () => {
   let component: PageHeaderComponent;
@@ -11,8 +11,7 @@ describe('PageHeaderComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [PageHeaderModule, RouterTestingModule],
-    })
-    .compileComponents();
+    }).compileComponents();
   }));
 
   beforeEach(() => {

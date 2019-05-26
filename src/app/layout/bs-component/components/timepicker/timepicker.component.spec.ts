@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { FormsModule } from '@angular/forms';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {FormsModule} from '@angular/forms';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-import { TimepickerComponent } from './timepicker.component';
+import {TimepickerComponent} from './timepicker.component';
 
 describe('TimepickerComponent', () => {
   let component: TimepickerComponent;
@@ -10,13 +10,9 @@ describe('TimepickerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [
-        FormsModule,
-        NgbModule
-      ],
-      declarations: [ TimepickerComponent ]
-    })
-    .compileComponents();
+      imports: [FormsModule, NgbModule],
+      declarations: [TimepickerComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

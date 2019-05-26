@@ -1,7 +1,7 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-import { ProgressbarComponent } from './progressbar.component';
+import {ProgressbarComponent} from './progressbar.component';
 
 describe('ProgressbarComponent', () => {
   let component: ProgressbarComponent;
@@ -9,12 +9,9 @@ describe('ProgressbarComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [
-        NgbModule
-      ],
-      declarations: [ ProgressbarComponent ]
-    })
-    .compileComponents();
+      imports: [NgbModule],
+      declarations: [ProgressbarComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

@@ -2,7 +2,6 @@
   "recommendations": [
     "Angular.ng-template",
     "eamodio.gitlens",
-    "eg2.tslint",
     "joelday.docthis",
     "esbenp.prettier-vscode",
     "Mikael.Angular-BeastCode",
